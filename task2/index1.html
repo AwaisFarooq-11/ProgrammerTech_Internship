@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Management System</title>
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <header>
+            <h1>Welcome to Our E-Learning Platform</h1>
+            <p>Learn at your own pace with our comprehensive courses.</p>
+            <a href="#courses" class="cta-button">Browse Courses</a>
+        </header>
+
+        <!-- Free Videos Section -->
+        <section id="free-videos">
+            <h2>Free Videos</h2>
+            <div class="video-container">
+                <!-- Add sample video embeds -->
+                <video controls>
+                    <source src="path/to/sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="path/to/sample-video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial">
+                <p>"This platform has transformed the way I learn!" - Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"The courses are very well structured and easy to follow." - John Smith</p>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How do I enroll in a course?</h3>
+                <p>You can enroll by signing up and selecting the course you are interested in.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are there any free courses available?</h3>
+                <p>Yes, we offer a range of free courses. Check out our courses page for more details.</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Us</h1>
+        <p>We are dedicated to providing the best online learning experience.</p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h1>Our Courses</h1>
+        <div class="course-list">
+            <div class="course-item">
+                <img src="path/to/course-image.jpg" alt="Course Image">
+                <h2>Course Title</h2>
+                <p>Course Description</p>
+                <a href="#course-detail" class="cta-button">Learn More</a>
+            </div>
+            <!-- Repeat course-item for other courses -->
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form action="submit_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login">
+        <h1>Login</h1>
+        <form action="submit_login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="cta-button">Login</button>
+        </form>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup">
+        <h1>Sign Up</h1>
+        <form action="submit_signup.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="cta-button">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-handles">
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+        <p>&copy; 2024 E-Learning Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
